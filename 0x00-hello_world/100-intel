@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S intel_syn.c -o intel_syn.s -masm=intel
+gcc -S main.c -o main.s -masm=intel
