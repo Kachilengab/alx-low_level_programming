@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 /**
- * int main -Entry point of the programme
+ * main -Entry point of the programme.
+ * @void: returns void
  *
- * Description : This is the main programme where
- * everything starts from
- * Return :Always 0 (Success)
+ * Description: The main functions is where
+ * the entry of the programme lies
+ *
+ * Return: Always 0 (Success) to show that the
+ * programe executed successfully
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-/**
- * Return : Returns value of 0 to the user
- *
- * Description: this is what returns and int value
- */
+
 	return (0);
 }
