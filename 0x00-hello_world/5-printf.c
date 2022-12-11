@@ -1,12 +1,18 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main -Entry point of the programme.
+ * @void: returns void
  *
- * Return :Always 0 (Success)
+ * Description: The main functions is where
+ * the entry of the programme lies
+ *
+ * Return: Always 0 (Success) to show that the
+ * programe executed successfully
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	puts("with proper grammar, but the outcome is a piece of art,");
+
 	return (0);
 }
