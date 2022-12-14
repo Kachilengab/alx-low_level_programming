@@ -1,8 +1,11 @@
 #include "main.h"
 /**
- * main -Entry point
+ * print_alphabet - for printing the alphabet
+ * @void: not return value
  *
- * Return: return 0 Always (Success)
+ * Description: Function is used to print lowercase
+ * alphabet
+ * Return : return void
  */
 void print_alphabet(void)
 {
