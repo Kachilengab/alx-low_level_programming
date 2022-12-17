@@ -1,25 +1,36 @@
 #include "main.h"
+
 /**
- * print_alphabet_x10 - print the alphabet 10 times
- * Return: return 0
+ * _islower(int c)- function to check for character lower
+ * @c: parameter to check
+ *
+ * Description: this functions checks if
+ * entered arg is a lower character
+ * Return: returns 1 if success
  */
 int _islower(int c)
 {
-
-	int i;
-	char d;
+	char i;
+	int j;
 	int result;
-	i = 1 % 10;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (i = 'a' ; i <= 'z'; i++)
 	{
-		for (d = 'A'; d <= 'Z'; d++)
+		if (c != i)
 		{
-			if (c != i || c != d)
-				result = 1;
-			else
-				result = 0;
+			for (j = 0; j < 10; j++)
+			{
+				if (c % 10 == j)
+					result = 1;
+				else
+					result = 0;
+			}
+		}
+		else
+		{
+			result = 1;
+			break;
 		}
 	}
-	return (result); 
+	return (result);
 }
