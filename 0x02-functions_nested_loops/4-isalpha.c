@@ -10,15 +10,13 @@
  */
 int _isalpha(int c)
 {
-	int i;
 	int result;
 
-	for (i = 0 ; i <= 10; i++)
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
-		if (c % 10 == i || c == ';')
-			result = 0;
-		else
-			result = 1;
+		result = 1;
 	}
+	else
+		result = 0;
 	return (result);
 }
